@@ -80,7 +80,8 @@ theme: next3
 deploy:
   type: git   
   repository: 
-              github: git@github.com:ky9999/ky9999.github.io.git  
+              #github: git@github.com:ky9999/ky9999.github.io.git 
+              gitCi: https://gh_token@github.com/ky9999/ky9999.github.io.git 
               #coding: git@git.dev.tencent.com:sola91/sola91.git
   branch: master 
 live2d:
