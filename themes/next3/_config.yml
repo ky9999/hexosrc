@@ -60,7 +60,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 2017
+  since: 2018
 
   # Icon between year and copyright info.
   icon:
@@ -270,7 +270,7 @@ excerpt_description: true
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: true
-  length: 100
+  length: 30
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section.
@@ -281,7 +281,7 @@ post_meta:
   item_text: true
   created_at: true
   updated_at:
-    enabled: true
+    enabled: false
     # If true, show updated date label only if `updated date` different from `created date` (post edited in another day than was created).
     # And if post will edited in same day as created, edited time will show in popup title under created time label.
     # If false show anyway, but if post edited in same day, show only edited time.
@@ -297,7 +297,8 @@ symbols_count_time:
   item_text_total: false
   awl: 4
   wpm: 275
-
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
 codeblock:
   # Manual define the border radius in codeblock
   # Leave it empty for the default 1
