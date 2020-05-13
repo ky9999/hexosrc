@@ -3,7 +3,7 @@
     (function(){
         if('{{ page.password }}'){
             if (prompt('{{ page.question }}') !== '{{ page.password }}'){
-                alert('密码错误');
+                alert('遗憾');
                 history.back();
             }
         }
