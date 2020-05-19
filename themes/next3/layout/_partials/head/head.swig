@@ -2,7 +2,7 @@
 <script>
     (function(){
         if('{{ page.password }}'){
-            if (prompt('{{ page.question }}') !== '{{ page.password }}'){
+            if (prompt('123') !== '{{ page.password }}'){
                 alert('遗憾');
                 history.back();
             }
