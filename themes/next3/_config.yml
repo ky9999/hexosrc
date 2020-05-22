@@ -516,7 +516,7 @@ quicklink: false
 # Security
 ##
 encrypt:
-    enable: true
+    enable: false
 
 
 # Disqus
