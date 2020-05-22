@@ -1,7 +1,7 @@
 language: node_js  #设置语言
 
 node_js:
-   - "v10.15.3"  #设置相应的版本
+   - "v12.16.3"  #设置相应的版本
 
 cache:
     apt: true
