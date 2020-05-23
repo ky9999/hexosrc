@@ -98,10 +98,10 @@ live2d:
     use: histoire
   display:
     superSample: 2
-    width: 200
-    height: 400
+    width: 170
+    height: 340
     position: right
     hOffset: 0
-    vOffset: -40
+    vOffset: -60
   mobile:
     show: true
