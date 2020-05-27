@@ -5,4 +5,4 @@ tags:
 categories:
     - bb
 ---
-![](/img/ff7.jpg)
+<img src="/img/ff7.jpg" width="1000" height="500">
